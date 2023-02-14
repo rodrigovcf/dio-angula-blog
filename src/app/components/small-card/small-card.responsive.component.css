@@ -1,0 +1,30 @@
+@media screen and (max-width: 600px) {
+
+  .container__small-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .container__small-card-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .small-card__title{
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .container__small-card__separator{
+    padding: 20px;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
